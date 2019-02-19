@@ -1,0 +1,133 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awesome Cover Letter
+% XeLaTeX Template
+% Version 1.1 (9/1/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Claud D. Park (posquit0.bj@gmail.com)
+% Lars Richter (mail@ayeks.de)
+% With modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template must be compiled with XeLaTeX, the below lines will ensure this
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+
+\geometry{left=2cm, top=1.5cm, right=2cm, bottom=2cm, footskip=.5cm} % Configure page margins with geometry
+ 
+\fontdir[fonts/] % Specify the location of the included fonts
+
+% Color for highlights
+\colorlet{awesome}{awesome-red} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+%\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
+
+% Colors for text - uncomment and modify
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%----------------------------------------------------------------------------------------
+
+\name{Yaguang (Ozzy)}{Tao}
+\address{3/9 Toward St, Murrumbeena, VIC 3163}
+\mobile{0434808020}
+\github{Ozzytao}
+\email{taoyaguang@gmail.com}
+\linkedin{yaguang-tao-7a207970}
+%\skype{skypeid}
+%\stackoverflow{SOid}{SOname}
+%\twitter{@twit}
+%\linkedin{linkedin name}
+%\reddit{reddit account}
+%\xing{xing name}
+%\extrainfo{test} % Other text you want to include on this line
+
+\position{Data Scientist}
+\quote{``everything is related to everything else, but near things are more related than distant things."} % A quote or statement
+
+%----------------------------------------------------------------------------------------
+%	RECIPIENT/POSITION/LETTER INFORMATION
+%	All of the below lines must be filled out
+%----------------------------------------------------------------------------------------
+
+\recipient{School of Global, Urban and Social Studies}{RMIT} % The company being applied to
+
+\letterdate{\today} % The date on the letter, default is the date of compilation
+
+\lettertitle{Job Application for Data Scientist} % The title of the letter
+
+\letteropening{Dear Alex,} % How the letter is opened
+
+\letterclosing{Sincerely,} % How the letter is closed
+
+\letterenclosure[Attached]{Curriculum Vitae} % Any enclosures with the letter
+
+\makecvfooter{\today}{Yaguang (Ozzy) Tao~~~·~~~Cover Letter}{} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
+  
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvheader % Print the header
+
+\makelettertitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\begin{cvletter}
+
+%------------------------------------------------
+
+
+I'm a PhD Candidate from RMIT University, expecting to submit my thesis in three months. My research interest falls in the field of Geospatial Science. Specifically, my PhD topic is about modeling and analyzing a particular type of movement data -- checkpoint movement data. 
+As appose to GPS trajectory of a moving object, which is recorded in fixed temporal frequency, checkpoint movement data is the type of movement observations collected at fixed locations in space. Movement data collected with sensor network, cellular network and transport smart card system are all examples of checkpoint data.
+My research involves various work including conceptual model design for spatio-temporal data, data analytics design, software implementation and so on. 
+During my research, I developed enormous interest for data science and skills for using data science for solving piratical problems.
+
+With a background in Computer Science and IT, I have extensive experience in software development and coding.  
+Specifically, I have been using python heavily for database programming and spatial algorithm development.
+I also have in-depth knowledge of different GIS platforms including but not limited to ArcGIS, QGIS, CartoDB and PostGIS. I've worked on several spatial projects using various GIS systems, operating them with both graphical interface and automated scripts. For my research work, I used PostGIS heavily to manipulate spatial objects in a large volume.
+In addition, I have experience developing Web Mapping Application to share spatial information with large audience. I developed a Flood Risk Web Application during my internship in ThinkSpatial. With the tool a user can well understand how risky his/her house is exposing to flood of different severity.
+In addition, I'm familiar with various Python Statistics packages and Machine learning packages which have saved me quite a lot of time for my data analytics tasks.
+
+Having working on a PhD project for 3 years in the field, I'm quite familiar with spatial industry and prepared to explore further in the field as a data scientist.
+
+For those reasons above, I believe I'm going to fit this position quite well. 
+I look forward to meeting you soon.
+
+
+
+
+
+%------------------------------------------------
+
+\end{cvletter}
+
+%----------------------------------------------------------------------------------------
+
+\makeletterclosing % Print the signature and enclosures
+
+\end{document}
